@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Image Cropper - Solstice Cartel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image Cropper</h1>
+
+        <label for="upload-image">Choose Image</label>
+        <input type="file" id="upload-image" accept="image/*">
+
+
+        <div class="image-container">
+            <img id="image-preview" alt="">
+        </div>
+
+
+        <button id="crop-btn" disabled>Crop Image</button>
+        <a id="download-btn" href="#" download="cropped-image.png">Download Cropped Image</a>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
