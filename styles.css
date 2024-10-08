@@ -36,6 +36,15 @@ body {
 
 }
 
+
+.name{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-right: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -145,3 +154,4 @@ a {
     background-color: #4a6ad3;
     color: antiquewhite;
 }
+
