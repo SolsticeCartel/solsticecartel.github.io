@@ -17,7 +17,7 @@ body {
 
 .navbar {
     width: 100%;
-    background-color: #1954d4;
+    background-color: #f8f8f8;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body {
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-links a:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 .container {
